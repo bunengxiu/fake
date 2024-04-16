@@ -1,0 +1,15 @@
+namespace: fake
+app: fake
+port: 50001
+
+# deployment
+replicaCount: 1
+deploymentName: fake
+repository: bunengxiu/fake
+tag: "0.0.1"
+pullPolicy: Always
+env: local
+
+# service
+serviceName: fake
+type: NodePort
