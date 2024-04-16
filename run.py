@@ -11,7 +11,7 @@ image_number = 3
 multi = 10
 vendor_id = 1
 host = '0.0.0.0'
-port = 50001
+port = 60001
 url_prefix = f'http://127.0.0.1:{port}/fake'
 
 

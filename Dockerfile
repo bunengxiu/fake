@@ -10,10 +10,10 @@ COPY requirements.txt /code/requirements.txt
 
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-COPY run.py /code/fake
+COPY run.py /code/fake/run.py
 
-EXPOSE 50001
+EXPOSE 60001
 
 ENV ENV="local"
 
-CMD ["python", "fake/run.py"]
+CMD ["python", "/code/fakec/run.py"]

@@ -4,5 +4,5 @@ description: A Helm Chart for deploying the Shark application
 maintainers:
 - email: bunengxiu@163.com
   name: bunengxiu
-name: fake
+name: fake1
 version: 1.0.0
