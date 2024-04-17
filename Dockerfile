@@ -16,4 +16,4 @@ EXPOSE 60001
 
 ENV ENV="local"
 
-CMD ["python", "/code/fakec/run.py"]
+CMD ["python", "/code/fake/run.py"]
