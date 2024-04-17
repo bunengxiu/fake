@@ -1,8 +1,8 @@
 apiVersion: v2
-appVersion: 0.0.1
+appVersion: 0.0.5
 description: A Helm Chart for deploying the Shark application
 maintainers:
 - email: bunengxiu@163.com
   name: bunengxiu
 name: fake
-version: 0.0.1
+version: 0.0.5

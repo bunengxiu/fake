@@ -6,7 +6,7 @@ port: 60001
 replicaCount: 1
 deploymentName: fake
 repository: bunengxiu/fake
-tag: "0.0.1"
+tag: "0.0.5"
 pullPolicy: Always
 env: local
 
