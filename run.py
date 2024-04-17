@@ -17,7 +17,7 @@ url_prefix = f'http://127.0.0.1:{port}/fake'
 
 @app.get("/")
 async def root():
-    return {"message": "fake"}
+    return {"message": "fake", 'version': '0.0.6'}
 
 
 @app.get("/fake/category")
