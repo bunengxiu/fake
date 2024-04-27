@@ -13,3 +13,9 @@ env: local
 # service
 serviceName: fake
 type: NodePort
+
+# ingress
+ingressName: fake
+ingressClassName: nginx
+host: fake.dev.dolphin.top
+backendServiceName: fake
